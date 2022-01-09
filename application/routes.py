@@ -84,6 +84,8 @@ def edit(editId):
         flash('Inventory Item Description Must Be At Most 500 Characters Long', category='issue')
     elif newQuantity.isdigit() == False:
         flash('Inventory Item Quantity Must Be An Integer', category='issue')
+    elif int(newQuantity) <= 0:
+        flash('Inventory Item Quantity Must Be Greater Than 0', category='issue')
     else:
         # Reaching this case means all the data given is correct
         # thus now we can update the Inventory Item
@@ -123,6 +125,8 @@ def create():
             flash('Inventory Item Description Must Be At Most 500 Characters Long', category='issue')
         elif newQuantity.isdigit() == False:
             flash('Inventory Item Quantity Must Be An Integer', category='issue')
+        elif int(newQuantity) <= 0:
+            flash('Inventory Item Quantity Must Be Greater Than 0', category='issue')
         else:
             # Reaching this case means all the data given is correct
             # therefore we can make the new Inventory Item
