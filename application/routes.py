@@ -72,9 +72,6 @@ def edit(editId):
     newName = request.form.get('name')
     newQuantity = request.form.get('quantity')
     newDescription = request.form.get('description')
-    print(newName)
-    print(newQuantity)
-    print(newDescription)
     # Now we will get the form data and run the checks if there is an error
     # we will flash a message indicating the error to the user
     if len(newName) == 0:
