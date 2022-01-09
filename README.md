@@ -35,7 +35,7 @@ This is the Add/Edit Inventory Items page:
 <img width="1193" alt="AddAndEditPage" src="https://user-images.githubusercontent.com/46334482/148676870-6e3e9989-33ed-4e99-9b6f-de125d07b45b.png">
 
 
-Please note that if Python 3 and Python 2 are both installed in your computer you many need to run the following commands instead:
+Please note that if Python 3 and Python 2 are both installed in your computer you may need to run the following commands instead:
 
 ```
 pip3 install -r requirements.txt
