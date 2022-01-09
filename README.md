@@ -1,4 +1,4 @@
-## Shopify Backend Challenge
+## Shopify Backend Challenge 2022
 
 Hello! In this repository is my submission to the Shopify Backend Intern Challenge for Summer 2022.
 
