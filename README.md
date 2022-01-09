@@ -11,13 +11,13 @@ It is important to note that in order to start this application Python 3 must be
 To start the application first clone the repository to a working directory using git. Once the project is cloned, navigate to the directory which includes the requirements.txt file.
 
 
-After this open a terminal/command prompt window in your current directory and run the command below.
+After this open a terminal or command prompt window in your current directory and run the command below.
 
 ```
 pip install -r requirements.txt
 ```
 
-Once the previous command is completed, in the same terminal/command prompt window run the command below. 
+Once the previous command is completed, in the same terminal or command prompt window run the command below. 
 
 ```
 python main.py
